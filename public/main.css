@@ -52,7 +52,7 @@
 }
 .spacer{
     display: block;
-    height: 5px;
+    height: 1.5px;
     width: 100%;
 }
 /* basic code ends here */
@@ -547,4 +547,19 @@ table{
 .mg-lt{
     margin-left: 1px;
 }
+.mh{
+    display: none;
+}
+.dataBox{
+    width: 100%;
+    padding: 9px;
+}
+.filterButton {
+    
+    margin: 10px 0;
+}
+/* .filter-container{
+    height: 0;
+    overflow: hidden;
+} */
 }

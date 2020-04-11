@@ -2,7 +2,7 @@ import React from 'react'
 
 function Filter(){
     return(
-        <div className="row my-2 text-ct">
+        <div className="row filter-container my-2 text-ct">
             <div className=" row col-5">
                 <div className="col-8">
                  <input className="searchBox" type="text" name="search" placeholder="Search..." maxLength="150" />

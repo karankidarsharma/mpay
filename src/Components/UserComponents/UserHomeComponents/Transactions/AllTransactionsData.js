@@ -6,12 +6,12 @@ function AllTransactionData(){
         <span className="spacer"></span>
         <tr className="strip-2" >
         <td className='table-title-all'>PID122</td>
-        <td className='table-title-all'>$800</td>
-        <td className='table-title-all'>$500</td>
-        <td className='table-title-all'>$300</td>
-        <td className='table-title-all col-2'>2020-06-23 20:35 AM</td>
-        <td className='table-title-all'>MPAY123</td>
-        <td className='table-title-all'>
+        <td className='mh table-title-all'>$800</td>
+        <td className='mh table-title-all'>$500</td>
+        <td className='mh table-title-all'>$300</td>
+        <td className='mh table-title-all col-2'>2020-06-23 20:35 AM</td>
+        <td className='mh table-title-all'>MPAY123</td>
+        <td className='mh table-title-all'>
             <div className="row">
                 <div className="col-7">COMPLETE</div>
                
