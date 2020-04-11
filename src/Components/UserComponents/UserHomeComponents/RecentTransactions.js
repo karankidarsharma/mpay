@@ -17,7 +17,7 @@ function RecentTransactions(){
               <TransactionData id="PID552" sender='MPAY658' total='$500' date="12/02/2020" status={true}/>
               <TransactionData id="PID217" sender='MPAY234' total='$300' date="12/02/2020" status={true}/>
               <TransactionData id="PID225" sender='MPAY124' total='$600' date="12/02/2020" status={false}/>
-              <div className="btn-div">
+              <div className="btn-div col-12 text-rt my-1">
                   <a className="btn btn-blue">VIEW ALL</a>
               </div>
              

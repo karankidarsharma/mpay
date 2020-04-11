@@ -1,5 +1,6 @@
 import React from 'react'
 import UserHome from './UserHomeComponents/UserHome'
+import Transactions from '../UserComponents/UserHomeComponents/Transactions/Transactions'
 class DataBox extends React.Component{
     constructor(){
         super()
@@ -12,7 +13,8 @@ class DataBox extends React.Component{
 
             <>
                <div className="dataBox">
-                    <UserHome/>
+                    {/* <UserHome/> */}
+                    <Transactions/>
                 </div>
             </>
         )

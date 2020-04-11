@@ -2,7 +2,7 @@ import React from 'react'
 
 function TableHeading(props){
    return(
-       <div className='tableHeadig bold'>
+       <div className='tableHeadig text-ct bold'>
            {props.title}
        </div>
    )

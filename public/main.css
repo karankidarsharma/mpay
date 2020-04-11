@@ -50,6 +50,11 @@
 .mg-lt{
     margin-left: 2em;
 }
+.spacer{
+    display: block;
+    height: 5px;
+    width: 100%;
+}
 /* basic code ends here */
 /* Scroll Bar */
 /* width */
@@ -83,6 +88,9 @@
 .row-baseline{
     align-items: baseline;
 
+}
+.row-spacearound{
+    justify-content: space-around;
 }
 .nav-main{
     padding: 20px;
@@ -382,6 +390,18 @@ opacity: 0.9;
 -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.56);
 box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.56); */
 }
+table{
+    border-collapse: collapse;
+    background: #fff;
+    padding: 10px;
+    /* display: block; */
+    width: 100%;
+}
+.AllTranasactionsDataTable{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
 .table-head{
     /* justify-content: space-around; */
     
@@ -395,13 +415,34 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.56); */
     border-radius: 5px;
     
 }
+.table-title-flat{
+    border-radius: 0;
+}
+.table-title-all{
+    font-size: 14px;
+    /* font-weight: 300; */
+    padding: 15px;
+    text-align: center;
+}
 .strip{
     padding: 10px 5px;
+    border: none;
 
+}
+.strip-2:hover{
+    -webkit-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
+    cursor: auto;
 }
 .strip:nth-child(odd){
     background-color: #f1f1f1;
+    /* background-color: red; */
     border-radius: 5px;
+    margin: 10px;
+    /* display: inline-block; */
+    width: 100%;
+    z-index: 12;
 }
 .strip-2{
     padding: 10px 5px;
@@ -428,18 +469,53 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.56); */
 .btn{
     padding: 10px 20px;
     display: inline-block;
+    cursor: pointer;
 }
 .btn-blue{
     background-color: #0071BC;
     color:#fff;
 }
-body{
-    /* background-color: #FB0101; */
+.searchBox{
+    height: 35px;
+    width: 100%;
+    /* background-color: transparent; */
+    outline: none;
+    border: 1px solid #2D91D9;
+    padding-left: 10px;
+    color:#1976bc;
+    font-size: 18px;
+
+
 }
-/* .btn-div{
-
-} */
-
+.searchBox::placeholder{
+    color: #2D91D9;
+}
+.searchButton{
+    background-color: #2D91D9;
+    color: #fff;
+    height: 35px;
+    width: 100%;
+    border: 1px;
+    cursor: pointer;
+}
+.bg-primary{
+    background-color: #2D91D9;
+}
+.filterButton{
+    color: #fff;
+    margin:0 20px;
+    padding: 8px;
+    text-align: center;
+}
+.colorPrimary{
+    color:#2D91D9;
+}
+.font-18{
+   font-size: 18px;
+}
+.py-8{
+    padding: 8px 0;
+}
 @media(max-width:600px){
     .row{
         flex-direction: column;
