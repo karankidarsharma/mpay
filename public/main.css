@@ -558,6 +558,9 @@ table{
     
     margin: 10px 0;
 }
+.AllTranasactionsDataTable{
+    padding: 4px;
+   
 /* .filter-container{
     height: 0;
     overflow: hidden;
