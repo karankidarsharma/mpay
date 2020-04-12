@@ -20,7 +20,7 @@ class UserHome extends React.Component{
 }
 
    render(){
-    const myNav = this.state.myNav.map(N => <UserNav key={N.id} id={N.id} itemName={N.nav} navName={() => this.navName(N.id)}/>)
+    const myNav = this.state.myNav.map(N => <UserNav key={N.id} id={N.id} link={N.link} itemName={N.nav} navName={() => this.navName(N.id)}/>)
        return(
            <>
         <Header/>

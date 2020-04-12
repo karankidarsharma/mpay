@@ -2,31 +2,36 @@ var nav = [
     {
     
         "id":1,
-        "nav":"HOME"
+        "nav":"HOME",
+        "link":'/'
     
 },
 {
     
     "id":2,
-    "nav":"TRANSACTIONS"
+    "nav":"TRANSACTIONS",
+    "link":"transactions"
 
 },
 {
     
     "id":3,
-    "nav":"SEND"
+    "nav":"SEND",
+    "link":"sendpayment"
 
 },
 {
     
     "id":4,
-    "nav":"REQUEST"
+    "nav":"REQUEST",
+    "link":"requestpayment"
 
 },
 {
     
     "id":5,
-    "nav":"DISPUTES"
+    "nav":"DISPUTES",
+    "link":"disputes"
 
 }
 

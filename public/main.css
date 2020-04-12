@@ -55,6 +55,10 @@
     height: 1.5px;
     width: 100%;
 }
+a:link{
+    /* color: #fff; */
+    text-decoration: none;
+}
 /* basic code ends here */
 /* Scroll Bar */
 /* width */
@@ -565,4 +569,5 @@ table{
     height: 0;
     overflow: hidden;
 } */
+}
 }
