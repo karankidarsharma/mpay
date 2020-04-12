@@ -3,7 +3,7 @@ import React from 'react'
 function AllTransactionData(props){
     return(
         
-        <tr className="strip">
+        <tr className="strip-2">
         <td className='table-title-all'>{props.transactionId}</td>
     <td className='mh table-title-all'>${props.totalAmount}</td>
     <td className='mh table-title-all'>${props.amountPaid}</td>
