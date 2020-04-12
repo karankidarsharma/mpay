@@ -9,14 +9,14 @@ function Filter(){
                 </div>
                 <div className="col-2">
                     <button className="searchButton">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                     </button>
                 </div>
                  
             </div>
             <div className="row col-7">
                <p className="col-1 colorPrimary font-18 py-8">Filters:</p>
-               <p className="col-3 bg-primary btn font-18 filterButton"><i class="far fa-calendar-alt"></i> DATE</p>
+               <p className="col-3 bg-primary btn font-18 filterButton"><i className="far fa-calendar-alt"></i> DATE</p>
                <p className="col-3 bg-primary btn font-18 filterButton">COMPLETE</p>
                <p className="col-3 bg-primary btn font-18 filterButton">INCOMPLETE</p>
 

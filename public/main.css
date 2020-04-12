@@ -59,6 +59,15 @@ a:link{
     /* color: #fff; */
     text-decoration: none;
 }
+.nav{
+    color: #fff;
+    color: #2D91D9;
+    border:1px solid #2D91D9;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+
+}
 /* basic code ends here */
 /* Scroll Bar */
 /* width */
@@ -401,6 +410,7 @@ table{
     /* display: block; */
     width: 100%;
 }
+
 .AllTranasactionsDataTable{
     padding: 20px;
     background-color: #fff;
@@ -433,7 +443,7 @@ table{
     border: none;
 
 }
-.strip-2:hover{
+.strip:hover,.strip-2:hover{
     -webkit-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);

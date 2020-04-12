@@ -12,7 +12,7 @@ class UserHome extends React.Component{
              myNav:nav
         }
 
-        console.log(this.state.myNav)
+        // console.log(this.state.myNav)
         
     }
  navName(id) {
