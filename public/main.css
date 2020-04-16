@@ -66,6 +66,7 @@ a:link{
     padding: 10px 20px;
     margin: 0 5px;
     border-radius: 5px;
+    display: block;
 
 }
 /* basic code ends here */
@@ -358,14 +359,15 @@ opacity: 0.9;
     margin-left: 20px;
 }
 .dataBox{
-    border: 1px solid #C3CFD9;
+    /* border: 1px solid #C3CFD9; */
     width: 90%;
     max-width: 1366px;
     margin: 0 auto;
     min-height: 70vh;
     margin-bottom: 100px;
     padding: 30px;
-    background: #edf7ff;
+    /* background: #edf7ff; */
+    background-color: #e8e8e861;
     border-radius: 5px;
   
     
@@ -529,6 +531,67 @@ table{
 }
 .py-8{
     padding: 8px 0;
+}
+.payment-fields{
+    height: 40px;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    outline: none;
+    color: grey;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: default;
+    border-radius: 5px;
+    border: 1px solid #9da3a6;
+}
+input::placeholder{
+    color: grey
+}
+.form-holder{
+    padding: 5% 20px;
+    margin: 0 auto;
+}
+form{
+    background-color: #fff;
+    padding: 30px;
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    
+    
+}
+.send-btn{
+    display: block;
+    padding: 12px 40px;
+    /* margin: 0 auto; */
+    width: 100%;
+    background: #1976bc;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    /* margin-left: 37%; */
+   
+}
+.hover:hover{
+    opacity: 0.9;
+}
+.fa-arrow-circle-right{
+    font-size: 18px!important;
+}
+.recv-form-heading{
+    font-size: 22px;
+}
+.recv-form-title{
+    color: #ffffff;
+    background: #0072bd;
+    padding: 10px;
+}
+.fa-funnel-dollar{
+    color: #0072bd;
+    font-size: 40px;
 }
 @media(max-width:600px){
     .row{
