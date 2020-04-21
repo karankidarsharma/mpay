@@ -2,7 +2,7 @@ import React from 'react'
 import AccountInfo from './AccountInfo'
 import RecentTransactions from './RecentTransactions'
 
-function UserHome(){
+function HomeForUser(){
     return(
         <>
             <div className='row my-1 row-baseline'>
@@ -17,4 +17,4 @@ function UserHome(){
     )
 }
 
-export default UserHome
+export default HomeForUser

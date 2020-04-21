@@ -1,5 +1,5 @@
 import React, {useState} from 'react'; 
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 
 function UserNav(props) {
@@ -8,7 +8,7 @@ function UserNav(props) {
 
         <div onClick={ props.navName }>
        
-       <Link className="nav" to={props.link}>{props.itemName}</Link>
+       <NavLink exact activeClassName="nav-active" className="nav" to={props.link}>{props.itemName}</NavLink>
        
              
        

@@ -1,11 +1,8 @@
 import React from 'react'
 import { Home, Navbar, Banner , UserHome} from './Components'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom"
+import {Route, Switch} from "react-router-dom"
+
+
 
 class App extends React.Component{
     
@@ -14,11 +11,14 @@ class App extends React.Component{
         return(
 
             <div >
-                {/* <Navbar />
-                <Home/> */}
-                <Router>
+            <Switch >
+              <Route exact path="/">                  
+                <Home/>
+             </Route>
+            <Route path="/user">
                    <UserHome/>
-                </Router>
+            </Route>
+            </Switch>
                 
             </div>
         )

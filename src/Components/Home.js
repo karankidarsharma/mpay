@@ -1,11 +1,13 @@
 import React from 'react'
 import {Banner, Box, LowerBanner} from './HomeComponents'
 import Grid from './Grid'
+import  Navbar from './Navbar'
 
 class Home extends React.Component{
     render(){
         return(
             <>
+            <Navbar/>
             <Banner heading={["MUTEPAY A WORLD CLASS",<br/>, "ESCROW SERVICE"]} tagline="Never Loose your money again"/>
             <div className="row">
                 <Box class='box-left'  heading='ALWAYS PUT YOUR MONEY IN SAFE HANDS' 

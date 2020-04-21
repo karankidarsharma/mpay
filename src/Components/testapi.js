@@ -3,35 +3,35 @@ var nav = [
     
         "id":1,
         "nav":"HOME",
-        "link":'/'
+        "link":'/user'
     
 },
 {
     
     "id":2,
     "nav":"TRANSACTIONS",
-    "link":"transactions"
+    "link":"/user/transactions"
 
 },
 {
     
     "id":3,
     "nav":"SEND",
-    "link":"sendpayment"
+    "link":"/user/sendpayment"
 
 },
 {
     
     "id":4,
     "nav":"REQUEST",
-    "link":"requestpayment"
+    "link":"/user/requestpayment"
 
 },
 {
     
     "id":5,
     "nav":"DISPUTES",
-    "link":"disputes"
+    "link":"/user/disputes"
 
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import UserHome from './UserHomeComponents/UserHome'
+import HomeForUser from './UserHomeComponents/HomeForUser'
 import Transactions from '../UserComponents/UserHomeComponents/Transactions/Transactions'
 import SendPayment from '../UserComponents/UserHomeComponents/SendPayments/SendPayment'
 import {
@@ -16,6 +16,7 @@ class DataBox extends React.Component{
         }
     }
     render(){
+    
         return(
 
             
@@ -25,15 +26,21 @@ class DataBox extends React.Component{
 
                
                 <Switch>
-                    <Route path="/" exact>
-                        <UserHome/>
+                    <Route path="/user" exact>
+                        <HomeForUser/>
                     </Route>
-                    <Route path="/transactions" exact>
+                    <Route path="/user/transactions" exact >
                         <Transactions/>
                     </Route>
-                    <Route path="/sendpayment" exact>
+                    <Route path="/user/sendpayment" exact >
                         <SendPayment/>
                     </Route>
+                    {/* <Route path="/user/requestpayment" exact>
+                        <RequestPayment/>
+                    </Route>
+                    <Route path="/user/disputes" exact>
+                        <Disputes/>
+                    </Route> */}
                 </Switch>
                 
           
