@@ -151,7 +151,7 @@ li a{
 }
 .btn-round{
     background: #174B75;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
     margin: 5px;
     cursor: pointer;
     transition: padding 1s;
@@ -494,9 +494,13 @@ table{
     display: inline-block;
 }
 .btn{
-    padding: 10px 20px;
-    display: inline-block;
+    padding: 20px 40px;
+    /* display: inline-block; */
     cursor: pointer;
+}
+.btn-view{
+    display: inline-block!important;
+    padding:10px 20px;
 }
 .btn-blue{
     background-color: #0071BC;

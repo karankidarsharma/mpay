@@ -20,7 +20,7 @@ function AllTransactionData(props){
             </div>
         </td>
         <td className='table-title-all col-1'>DETAILS</td>
-        <td className='table-title-all'><button className="btn btn-blue">VIEW</button></td>
+        <td className='table-title-all'><button className="btn btn-blue btn-view">VIEW</button></td>
         </tr> 
        
     )
