@@ -1,6 +1,7 @@
 import React from 'react'
 import TableHeading from './ComponentsItems/TableHeading'
 import TransactionData from './ComponentsItems/TransactionData'
+import {Link} from "react-router-dom"
 function RecentTransactions(){
 
       return(
@@ -18,7 +19,7 @@ function RecentTransactions(){
               <TransactionData id="PID217" sender='MPAY234' total='$300' date="12/02/2020" status={true}/>
               <TransactionData id="PID225" sender='MPAY124' total='$600' date="12/02/2020" status={false}/>
               <div className="btn-div col-12 text-rt my-1">
-                  <a className="btn btn-blue btn-view">VIEW ALL</a>
+                  <Link className="btn btn-blue btn-view" to="/user/transactions">VIEW ALL</Link>
               </div>
              
 
