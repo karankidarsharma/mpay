@@ -1,6 +1,7 @@
 import React from 'react'
-
+import {Link, useParams} from "react-router-dom"
 function AllTransactionData(props){
+   
     return(
         
         <tr className="strip-2">
@@ -20,7 +21,9 @@ function AllTransactionData(props){
             </div>
         </td>
         <td className='table-title-all col-1'>DETAILS</td>
-        <td className='table-title-all'><button className="btn btn-blue btn-view">VIEW</button></td>
+        
+
+        <td className='table-title-all'><Link to={`/user/${props.transactionId}`}><button className="btn btn-blue btn-view">VIEW</button></Link></td>
         </tr> 
        
     )

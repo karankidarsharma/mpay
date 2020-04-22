@@ -58,6 +58,19 @@
     height: 1.5px;
     width: 100%;
 }
+.error{
+    color:red;
+    margin-top:-10px;
+    /* width: 0; */
+    /* letter-spacing: 1px;
+    animation: slide 2s ;
+    overflow: hidden; */
+    
+}
+/* @keyframes slide {
+    from {letter-spacing: 50px;}
+    to {letter-spacing: 1px;}
+  } */
 a:link{
     /* color: #fff; */
     text-decoration: none;
